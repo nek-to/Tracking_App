@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84C3A2A62A8DE2120055AFB6 /* Tracking_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3A2A52A8DE2120055AFB6 /* Tracking_AppApp.swift */; };
+		0B32AFF42A92363500D2C642 /* TypeOfData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B32AFF32A92363400D2C642 /* TypeOfData.swift */; };
+		0B32AFF62A9236F900D2C642 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B32AFF52A9236F900D2C642 /* Algorithm.swift */; };
+		0B32AFF82A923C2C00D2C642 /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B32AFF72A923C2C00D2C642 /* ButtonType.swift */; };
+		0B32AFFA2A923CDF00D2C642 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B32AFF92A923CDF00D2C642 /* ButtonView.swift */; };
+		0BB212192A92210C0050197C /* FileErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB212182A92210C0050197C /* FileErrors.swift */; };
+		0BB2121C2A922CEA0050197C /* ModalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB2121B2A922CE90050197C /* ModalScreen.swift */; };
+		0BB212202A922D9B0050197C /* TrackingFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB2121F2A922D9B0050197C /* TrackingFiles.swift */; };
+		84C3A2A62A8DE2120055AFB6 /* Tracking_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3A2A52A8DE2120055AFB6 /* Tracking_App.swift */; };
 		84C3A2A82A8DE2120055AFB6 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3A2A72A8DE2120055AFB6 /* MainScreen.swift */; };
 		84C3A2AA2A8DE2130055AFB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C3A2A92A8DE2130055AFB6 /* Assets.xcassets */; };
 		84C3A2AD2A8DE2130055AFB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C3A2AC2A8DE2130055AFB6 /* Preview Assets.xcassets */; };
@@ -21,8 +28,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B32AFF32A92363400D2C642 /* TypeOfData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeOfData.swift; sourceTree = "<group>"; };
+		0B32AFF52A9236F900D2C642 /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
+		0B32AFF72A923C2C00D2C642 /* ButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
+		0B32AFF92A923CDF00D2C642 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		0BB212182A92210C0050197C /* FileErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileErrors.swift; sourceTree = "<group>"; };
+		0BB2121B2A922CE90050197C /* ModalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalScreen.swift; sourceTree = "<group>"; };
+		0BB2121F2A922D9B0050197C /* TrackingFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingFiles.swift; sourceTree = "<group>"; };
 		84C3A2A22A8DE2120055AFB6 /* Tracking_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tracking_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		84C3A2A52A8DE2120055AFB6 /* Tracking_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracking_AppApp.swift; sourceTree = "<group>"; };
+		84C3A2A52A8DE2120055AFB6 /* Tracking_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracking_App.swift; sourceTree = "<group>"; };
 		84C3A2A72A8DE2120055AFB6 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		84C3A2A92A8DE2130055AFB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84C3A2AC2A8DE2130055AFB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -46,6 +60,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BB212172A9220E30050197C /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				0BB212182A92210C0050197C /* FileErrors.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		0BB2121A2A9224CC0050197C /* RepresentationView */ = {
+			isa = PBXGroup;
+			children = (
+				84C3A2B42A8DE2390055AFB6 /* MapViewRepresentable.swift */,
+			);
+			path = RepresentationView;
+			sourceTree = "<group>";
+		};
+		0BB2121D2A922D640050197C /* TrackingData */ = {
+			isa = PBXGroup;
+			children = (
+				84C3A2C22A8DE9C10055AFB6 /* TrackingData.swift */,
+				84C3A2C42A8DEA680055AFB6 /* TrackingPoint.swift */,
+				84C3A2BD2A8DE8F80055AFB6 /* TrackingSegment.swift */,
+			);
+			path = TrackingData;
+			sourceTree = "<group>";
+		};
+		0BB2121E2A922D7F0050197C /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				0B32AFF32A92363400D2C642 /* TypeOfData.swift */,
+				0BB2121F2A922D9B0050197C /* TrackingFiles.swift */,
+				0B32AFF52A9236F900D2C642 /* Algorithm.swift */,
+				0B32AFF72A923C2C00D2C642 /* ButtonType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		84C3A2992A8DE2120055AFB6 = {
 			isa = PBXGroup;
 			children = (
@@ -68,9 +119,7 @@
 				84C3A2BC2A8DE8DF0055AFB6 /* Models */,
 				84C3A2B62A8DE4AD0055AFB6 /* Core */,
 				84C3A2B32A8DE2250055AFB6 /* Views */,
-				84C3A2A52A8DE2120055AFB6 /* Tracking_AppApp.swift */,
 				84C3A2BF2A8DE94B0055AFB6 /* Resources */,
-				84C3A2A72A8DE2120055AFB6 /* MainScreen.swift */,
 				84C3A2AB2A8DE2130055AFB6 /* Preview Content */,
 			);
 			path = Tracking_App;
@@ -87,7 +136,11 @@
 		84C3A2B32A8DE2250055AFB6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				84C3A2B42A8DE2390055AFB6 /* MapViewRepresentable.swift */,
+				0BB2121A2A9224CC0050197C /* RepresentationView */,
+				0BB2121B2A922CE90050197C /* ModalScreen.swift */,
+				84C3A2A72A8DE2120055AFB6 /* MainScreen.swift */,
+				84C3A2A52A8DE2120055AFB6 /* Tracking_App.swift */,
+				0B32AFF92A923CDF00D2C642 /* ButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -95,6 +148,7 @@
 		84C3A2B62A8DE4AD0055AFB6 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				0BB212172A9220E30050197C /* Errors */,
 				84C3A2B92A8DE8B70055AFB6 /* Commons */,
 				84C3A2B72A8DE4BD0055AFB6 /* LocationManager.swift */,
 			);
@@ -112,9 +166,8 @@
 		84C3A2BC2A8DE8DF0055AFB6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				84C3A2C22A8DE9C10055AFB6 /* TrackingData.swift */,
-				84C3A2C42A8DEA680055AFB6 /* TrackingPoint.swift */,
-				84C3A2BD2A8DE8F80055AFB6 /* TrackingSegment.swift */,
+				0BB2121E2A922D7F0050197C /* Enums */,
+				0BB2121D2A922D640050197C /* TrackingData */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -200,12 +253,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				84C3A2C32A8DE9C10055AFB6 /* TrackingData.swift in Sources */,
+				0B32AFF82A923C2C00D2C642 /* ButtonType.swift in Sources */,
+				0B32AFFA2A923CDF00D2C642 /* ButtonView.swift in Sources */,
+				0BB2121C2A922CEA0050197C /* ModalScreen.swift in Sources */,
 				84C3A2BE2A8DE8F80055AFB6 /* TrackingSegment.swift in Sources */,
 				84C3A2B82A8DE4BD0055AFB6 /* LocationManager.swift in Sources */,
 				84C3A2C52A8DEA680055AFB6 /* TrackingPoint.swift in Sources */,
+				0BB212192A92210C0050197C /* FileErrors.swift in Sources */,
+				0BB212202A922D9B0050197C /* TrackingFiles.swift in Sources */,
 				84C3A2A82A8DE2120055AFB6 /* MainScreen.swift in Sources */,
+				0B32AFF42A92363500D2C642 /* TypeOfData.swift in Sources */,
 				84C3A2BB2A8DE8D50055AFB6 /* TrackingDataDecoder.swift in Sources */,
-				84C3A2A62A8DE2120055AFB6 /* Tracking_AppApp.swift in Sources */,
+				0B32AFF62A9236F900D2C642 /* Algorithm.swift in Sources */,
+				84C3A2A62A8DE2120055AFB6 /* Tracking_App.swift in Sources */,
 				84C3A2B52A8DE2390055AFB6 /* MapViewRepresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,6 +395,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Tracking_App/Preview Content\"";
+				DEVELOPMENT_TEAM = W7V846WLMV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please press to give access to your location";
@@ -343,6 +404,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -364,6 +426,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Tracking_App/Preview Content\"";
+				DEVELOPMENT_TEAM = W7V846WLMV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please press to give access to your location";
@@ -372,6 +435,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

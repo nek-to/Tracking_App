@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct Tracking_AppApp: App {
+struct Tracking_App: App {
     var body: some Scene {
         WindowGroup {
 			MainScreen()
