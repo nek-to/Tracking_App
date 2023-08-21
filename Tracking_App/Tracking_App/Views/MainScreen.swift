@@ -1,12 +1,14 @@
 import SwiftUI
+import CoreLocation
 
 struct MainScreen: View {
     @State private var isPresented = false
     @State private var selectedTypeOfData: TypeOfData? = nil
+    @State var coordinates = [CLLocationCoordinate2D]()
     
     var body: some View {
         ZStack(alignment: .bottomTrailing) {
-            MapViewRepresentable()
+            MapViewRepresentable(points: coordinates)
                 .ignoresSafeArea()
             
             VStack {
@@ -34,6 +36,14 @@ struct MainScreen: View {
         }
         .sheet(item: $selectedTypeOfData) { typeOfData in
             ModalScreen(typeOfData: typeOfData)
+        }
+        .onAppear {
+            let track = TrackingDataDecoder.shared.decodeTrackingDataFrom(TrackingFiles.first.value)
+            track?.forEach {
+                $0.points.forEach {
+                    self.coordinates.append(CLLocationCoordinate2D(latitude: $0.latitude, longitude: $0.longitude))
+                }
+            }
         }
     }
 }

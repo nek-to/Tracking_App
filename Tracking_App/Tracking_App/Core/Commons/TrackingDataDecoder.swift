@@ -1,7 +1,7 @@
 import Foundation
 
 class TrackingDataDecoder {
-    static let shated = TrackingDataDecoder()
+    static let shared = TrackingDataDecoder()
     
     private init() {}
     

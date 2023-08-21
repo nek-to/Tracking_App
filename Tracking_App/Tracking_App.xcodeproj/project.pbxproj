@@ -11,6 +11,7 @@
 		0B32AFF62A9236F900D2C642 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B32AFF52A9236F900D2C642 /* Algorithm.swift */; };
 		0B32AFF82A923C2C00D2C642 /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B32AFF72A923C2C00D2C642 /* ButtonType.swift */; };
 		0B32AFFA2A923CDF00D2C642 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B32AFF92A923CDF00D2C642 /* ButtonView.swift */; };
+		0B32AFFC2A9270A000D2C642 /* KalmanFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B32AFFB2A9270A000D2C642 /* KalmanFilter.swift */; };
 		0BB212192A92210C0050197C /* FileErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB212182A92210C0050197C /* FileErrors.swift */; };
 		0BB2121C2A922CEA0050197C /* ModalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB2121B2A922CE90050197C /* ModalScreen.swift */; };
 		0BB212202A922D9B0050197C /* TrackingFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB2121F2A922D9B0050197C /* TrackingFiles.swift */; };
@@ -32,6 +33,7 @@
 		0B32AFF52A9236F900D2C642 /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
 		0B32AFF72A923C2C00D2C642 /* ButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
 		0B32AFF92A923CDF00D2C642 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		0B32AFFB2A9270A000D2C642 /* KalmanFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalmanFilter.swift; sourceTree = "<group>"; };
 		0BB212182A92210C0050197C /* FileErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileErrors.swift; sourceTree = "<group>"; };
 		0BB2121B2A922CE90050197C /* ModalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalScreen.swift; sourceTree = "<group>"; };
 		0BB2121F2A922D9B0050197C /* TrackingFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingFiles.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				84C3A2BA2A8DE8D50055AFB6 /* TrackingDataDecoder.swift */,
+				0B32AFFB2A9270A000D2C642 /* KalmanFilter.swift */,
 			);
 			path = Commons;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				84C3A2BE2A8DE8F80055AFB6 /* TrackingSegment.swift in Sources */,
 				84C3A2B82A8DE4BD0055AFB6 /* LocationManager.swift in Sources */,
 				84C3A2C52A8DEA680055AFB6 /* TrackingPoint.swift in Sources */,
+				0B32AFFC2A9270A000D2C642 /* KalmanFilter.swift in Sources */,
 				0BB212192A92210C0050197C /* FileErrors.swift in Sources */,
 				0BB212202A922D9B0050197C /* TrackingFiles.swift in Sources */,
 				84C3A2A82A8DE2120055AFB6 /* MainScreen.swift in Sources */,
