@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04D5397E5167006FBCC1ADE7D259F5DA /* Hyperbolic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AE028AEB3CBF75F4B6045DD1B09A65 /* Hyperbolic.swift */; };
+		1153BEB8D803FB47F84525FBA270DCF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A879B666932042230DF8C3DEF627F1 /* Foundation.framework */; };
+		277564DE3D3E33D6411A5CFBB80D9659 /* Convolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB669611EF22742BF83927BECB1C7FDA /* Convolution.swift */; };
+		2FCAD6670AE9B9F2092EFEAE6EC739CB /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28B6E03952CE995D0146AED9A3AF3E9 /* Matrix.swift */; };
+		31E482E5FC1BC5D2D01032FC441A44B2 /* FFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A622C301B443D061289FFA8EB60FD /* FFT.swift */; };
+		32D867F1FABA2414748804E9CE540FE2 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BA28EAD272AE93F7127DAD07ED37B0 /* Power.swift */; };
+		38C394776A22AF97BE6648074B2DD282 /* Pods-Tracking_App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C04521955D726C9D2F254A46C2DA1567 /* Pods-Tracking_App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43200AB7B42DAD3E9A98BD93DA58A75D /* Auxiliary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C504A57A802703D0CD822E589A19CEA /* Auxiliary.swift */; };
+		6DBE1EDF53FB28DD59A4B465D96BC69D /* Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3469C0210FB08DD9159CEFED6A82ADA2 /* Arithmetic.swift */; };
+		8553F165B6922A75A9347332A698D79C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A879B666932042230DF8C3DEF627F1 /* Foundation.framework */; };
+		94CFD047DFE2489872303A30BE08F22D /* Surge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF38B478563BA52D64C4163320202307 /* Surge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBEDE6C84DAC9B88ED67E8AC3CDBE684 /* Exponential.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527FAE2A6A3B365A8C9B89642B2B95C /* Exponential.swift */; };
+		D49CBD364630139FA6D6E07EACDEB631 /* Trigonometric.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB03B7DA5079916808CF18C7C676E921 /* Trigonometric.swift */; };
+		EDFBCAB36520D939517047DEF3380261 /* Surge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF3D08B411BDAB3E1D0E1C73EE03E5E /* Surge-dummy.m */; };
+		EE7BD1B78C40C034C6E5A9724C9D0823 /* Pods-Tracking_App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB80CEBE6C063A66B1D7DAA908977C46 /* Pods-Tracking_App-dummy.m */; };
+		F6C6CEAEA00D51370D188B8CBBB01C32 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B02135B5177649545F581CA64FA0F2 /* Accelerate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5922D2052262FE08CBB6CD5DCCE964DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29646BE79525429BCB5257178B28C106;
+			remoteInfo = Surge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06AF3BD715001B068557A77D619B1002 /* Pods-Tracking_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tracking_App.debug.xcconfig"; sourceTree = "<group>"; };
+		0C699E1D9CA5C6C586268E258730BCD7 /* Surge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Surge-prefix.pch"; sourceTree = "<group>"; };
+		32AE028AEB3CBF75F4B6045DD1B09A65 /* Hyperbolic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hyperbolic.swift; path = Source/Hyperbolic.swift; sourceTree = "<group>"; };
+		331D54114AD595FDBCD5B36CC8D9F072 /* Pods-Tracking_App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tracking_App-acknowledgements.plist"; sourceTree = "<group>"; };
+		3469C0210FB08DD9159CEFED6A82ADA2 /* Arithmetic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Arithmetic.swift; path = Source/Arithmetic.swift; sourceTree = "<group>"; };
+		34C5FA2EACEEA5F69956A822B7118B56 /* Pods_Tracking_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tracking_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57BF8D65124B81D179D4CEA05A3E2C44 /* Surge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Surge.modulemap; sourceTree = "<group>"; };
+		76934E0F2E18A5327D9F7523B4B270FC /* Pods-Tracking_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tracking_App.release.xcconfig"; sourceTree = "<group>"; };
+		7BF3D08B411BDAB3E1D0E1C73EE03E5E /* Surge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Surge-dummy.m"; sourceTree = "<group>"; };
+		83BA28EAD272AE93F7127DAD07ED37B0 /* Power.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Power.swift; path = Source/Power.swift; sourceTree = "<group>"; };
+		96A879B666932042230DF8C3DEF627F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		99EED0895EE3C8347D569D130EAA974D /* Pods-Tracking_App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tracking_App-Info.plist"; sourceTree = "<group>"; };
+		9A6FD438DC0223E55BF0B8C9493B5505 /* Surge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Surge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C504A57A802703D0CD822E589A19CEA /* Auxiliary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auxiliary.swift; path = Source/Auxiliary.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1676A487AFC4637BB935CCC5674CAA9 /* Surge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Surge.debug.xcconfig; sourceTree = "<group>"; };
+		A44A622C301B443D061289FFA8EB60FD /* FFT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FFT.swift; path = Source/FFT.swift; sourceTree = "<group>"; };
+		A7B02135B5177649545F581CA64FA0F2 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		AB80CEBE6C063A66B1D7DAA908977C46 /* Pods-Tracking_App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tracking_App-dummy.m"; sourceTree = "<group>"; };
+		B00242ED56F167282A2C04999B2B8965 /* Pods-Tracking_App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tracking_App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B527FAE2A6A3B365A8C9B89642B2B95C /* Exponential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponential.swift; path = Source/Exponential.swift; sourceTree = "<group>"; };
+		B9ADA4DB3F736521A7555CCA864FD5C1 /* Pods-Tracking_App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Tracking_App.modulemap"; sourceTree = "<group>"; };
+		BC6808D44A88F350A060EB0F19C92471 /* Surge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Surge.release.xcconfig; sourceTree = "<group>"; };
+		C04521955D726C9D2F254A46C2DA1567 /* Pods-Tracking_App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tracking_App-umbrella.h"; sourceTree = "<group>"; };
+		D28B6E03952CE995D0146AED9A3AF3E9 /* Matrix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Matrix.swift; path = Source/Matrix.swift; sourceTree = "<group>"; };
+		DF38B478563BA52D64C4163320202307 /* Surge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Surge-umbrella.h"; sourceTree = "<group>"; };
+		EB03B7DA5079916808CF18C7C676E921 /* Trigonometric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Trigonometric.swift; path = Source/Trigonometric.swift; sourceTree = "<group>"; };
+		EB669611EF22742BF83927BECB1C7FDA /* Convolution.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Convolution.swift; path = Source/Convolution.swift; sourceTree = "<group>"; };
+		F0930416354E1A69403EA64A12A01B5C /* Pods-Tracking_App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tracking_App-frameworks.sh"; sourceTree = "<group>"; };
+		FD65A5390D809A5FA0EF6259D50ADAC2 /* Surge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Surge-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		230A9676D3AB72E85DB6B20A54E03C29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8553F165B6922A75A9347332A698D79C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE85BC5B5C41299383ABBEFEB9F603C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C6CEAEA00D51370D188B8CBBB01C32 /* Accelerate.framework in Frameworks */,
+				1153BEB8D803FB47F84525FBA270DCF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8441FA87A56665FC5C4175E9E4ACF526 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4403477FAB39A4A364EB91F1BDD30361 /* Pods-Tracking_App */ = {
+			isa = PBXGroup;
+			children = (
+				B9ADA4DB3F736521A7555CCA864FD5C1 /* Pods-Tracking_App.modulemap */,
+				B00242ED56F167282A2C04999B2B8965 /* Pods-Tracking_App-acknowledgements.markdown */,
+				331D54114AD595FDBCD5B36CC8D9F072 /* Pods-Tracking_App-acknowledgements.plist */,
+				AB80CEBE6C063A66B1D7DAA908977C46 /* Pods-Tracking_App-dummy.m */,
+				F0930416354E1A69403EA64A12A01B5C /* Pods-Tracking_App-frameworks.sh */,
+				99EED0895EE3C8347D569D130EAA974D /* Pods-Tracking_App-Info.plist */,
+				C04521955D726C9D2F254A46C2DA1567 /* Pods-Tracking_App-umbrella.h */,
+				06AF3BD715001B068557A77D619B1002 /* Pods-Tracking_App.debug.xcconfig */,
+				76934E0F2E18A5327D9F7523B4B270FC /* Pods-Tracking_App.release.xcconfig */,
+			);
+			name = "Pods-Tracking_App";
+			path = "Target Support Files/Pods-Tracking_App";
+			sourceTree = "<group>";
+		};
+		6C69B3CCDE2F9190B2CA2F2DF56AED3F /* Surge */ = {
+			isa = PBXGroup;
+			children = (
+				3469C0210FB08DD9159CEFED6A82ADA2 /* Arithmetic.swift */,
+				9C504A57A802703D0CD822E589A19CEA /* Auxiliary.swift */,
+				EB669611EF22742BF83927BECB1C7FDA /* Convolution.swift */,
+				B527FAE2A6A3B365A8C9B89642B2B95C /* Exponential.swift */,
+				A44A622C301B443D061289FFA8EB60FD /* FFT.swift */,
+				32AE028AEB3CBF75F4B6045DD1B09A65 /* Hyperbolic.swift */,
+				D28B6E03952CE995D0146AED9A3AF3E9 /* Matrix.swift */,
+				83BA28EAD272AE93F7127DAD07ED37B0 /* Power.swift */,
+				EB03B7DA5079916808CF18C7C676E921 /* Trigonometric.swift */,
+				810A352F5A369E2C5E731EA9CD64610D /* Support Files */,
+			);
+			path = Surge;
+			sourceTree = "<group>";
+		};
+		810A352F5A369E2C5E731EA9CD64610D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57BF8D65124B81D179D4CEA05A3E2C44 /* Surge.modulemap */,
+				7BF3D08B411BDAB3E1D0E1C73EE03E5E /* Surge-dummy.m */,
+				FD65A5390D809A5FA0EF6259D50ADAC2 /* Surge-Info.plist */,
+				0C699E1D9CA5C6C586268E258730BCD7 /* Surge-prefix.pch */,
+				DF38B478563BA52D64C4163320202307 /* Surge-umbrella.h */,
+				A1676A487AFC4637BB935CCC5674CAA9 /* Surge.debug.xcconfig */,
+				BC6808D44A88F350A060EB0F19C92471 /* Surge.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Surge";
+			sourceTree = "<group>";
+		};
+		8441FA87A56665FC5C4175E9E4ACF526 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A7B02135B5177649545F581CA64FA0F2 /* Accelerate.framework */,
+				96A879B666932042230DF8C3DEF627F1 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9D962C8896C9BE4DD0D4C5F3D2786118 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C69B3CCDE2F9190B2CA2F2DF56AED3F /* Surge */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				9D962C8896C9BE4DD0D4C5F3D2786118 /* Pods */,
+				F96310F7FAB70FCB9486188DA4EF0E6E /* Products */,
+				FE769B20B16F4588A878311CA6C10C26 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F96310F7FAB70FCB9486188DA4EF0E6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34C5FA2EACEEA5F69956A822B7118B56 /* Pods_Tracking_App.framework */,
+				9A6FD438DC0223E55BF0B8C9493B5505 /* Surge.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE769B20B16F4588A878311CA6C10C26 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4403477FAB39A4A364EB91F1BDD30361 /* Pods-Tracking_App */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		008D8A985C6C7E9381413ABE7DF3568C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C394776A22AF97BE6648074B2DD282 /* Pods-Tracking_App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923E95BE8D5D8D9EAABBF1C979755717 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CFD047DFE2489872303A30BE08F22D /* Surge-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		29646BE79525429BCB5257178B28C106 /* Surge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9086F11A1D3A89387CB4717CF9C8B3D0 /* Build configuration list for PBXNativeTarget "Surge" */;
+			buildPhases = (
+				923E95BE8D5D8D9EAABBF1C979755717 /* Headers */,
+				A1914CCCD4317F06C8D7B45309347C0C /* Sources */,
+				DE85BC5B5C41299383ABBEFEB9F603C7 /* Frameworks */,
+				10005D4E0AEB034705370F8A11041298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Surge;
+			productName = Surge;
+			productReference = 9A6FD438DC0223E55BF0B8C9493B5505 /* Surge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D963A4DD50925D16F9631B737615B88E /* Pods-Tracking_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A02EA807E2D7352B0F5D019D01C69018 /* Build configuration list for PBXNativeTarget "Pods-Tracking_App" */;
+			buildPhases = (
+				008D8A985C6C7E9381413ABE7DF3568C /* Headers */,
+				596614C3990E023E13B25CCF9F8DD164 /* Sources */,
+				230A9676D3AB72E85DB6B20A54E03C29 /* Frameworks */,
+				E83BC94575ED228D8A68DC0EF82C930A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2869A01BA86048D895D601877F1BC8B4 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tracking_App";
+			productName = Pods_Tracking_App;
+			productReference = 34C5FA2EACEEA5F69956A822B7118B56 /* Pods_Tracking_App.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F96310F7FAB70FCB9486188DA4EF0E6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D963A4DD50925D16F9631B737615B88E /* Pods-Tracking_App */,
+				29646BE79525429BCB5257178B28C106 /* Surge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10005D4E0AEB034705370F8A11041298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E83BC94575ED228D8A68DC0EF82C930A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		596614C3990E023E13B25CCF9F8DD164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7BD1B78C40C034C6E5A9724C9D0823 /* Pods-Tracking_App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1914CCCD4317F06C8D7B45309347C0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBE1EDF53FB28DD59A4B465D96BC69D /* Arithmetic.swift in Sources */,
+				43200AB7B42DAD3E9A98BD93DA58A75D /* Auxiliary.swift in Sources */,
+				277564DE3D3E33D6411A5CFBB80D9659 /* Convolution.swift in Sources */,
+				BBEDE6C84DAC9B88ED67E8AC3CDBE684 /* Exponential.swift in Sources */,
+				31E482E5FC1BC5D2D01032FC441A44B2 /* FFT.swift in Sources */,
+				04D5397E5167006FBCC1ADE7D259F5DA /* Hyperbolic.swift in Sources */,
+				2FCAD6670AE9B9F2092EFEAE6EC739CB /* Matrix.swift in Sources */,
+				32D867F1FABA2414748804E9CE540FE2 /* Power.swift in Sources */,
+				EDFBCAB36520D939517047DEF3380261 /* Surge-dummy.m in Sources */,
+				D49CBD364630139FA6D6E07EACDEB631 /* Trigonometric.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2869A01BA86048D895D601877F1BC8B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Surge;
+			target = 29646BE79525429BCB5257178B28C106 /* Surge */;
+			targetProxy = 5922D2052262FE08CBB6CD5DCCE964DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C5C030E37ABFD009532F7D148DABB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06AF3BD715001B068557A77D619B1002 /* Pods-Tracking_App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tracking_App/Pods-Tracking_App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tracking_App/Pods-Tracking_App.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3637C147409176E2F59BEBA819CE4F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1676A487AFC4637BB935CCC5674CAA9 /* Surge.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Surge/Surge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Surge/Surge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Surge/Surge.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = Surge;
+				PRODUCT_NAME = Surge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8500A25172C7A0D2C7DAC7D2A19F621D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76934E0F2E18A5327D9F7523B4B270FC /* Pods-Tracking_App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tracking_App/Pods-Tracking_App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tracking_App/Pods-Tracking_App.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		989AF6041644284C46EE57BAD088623F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC6808D44A88F350A060EB0F19C92471 /* Surge.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Surge/Surge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Surge/Surge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Surge/Surge.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = Surge;
+				PRODUCT_NAME = Surge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3FBC45C4966EFE20583918767EFBE2 /* Debug */,
+				FF0A36149038A192FFD678E1D4A40D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9086F11A1D3A89387CB4717CF9C8B3D0 /* Build configuration list for PBXNativeTarget "Surge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3637C147409176E2F59BEBA819CE4F85 /* Debug */,
+				989AF6041644284C46EE57BAD088623F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A02EA807E2D7352B0F5D019D01C69018 /* Build configuration list for PBXNativeTarget "Pods-Tracking_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C5C030E37ABFD009532F7D148DABB46 /* Debug */,
+				8500A25172C7A0D2C7DAC7D2A19F621D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
